@@ -1,0 +1,14 @@
+nav {
+    ul {
+        a{
+            img{display: none;
+            }
+            span{display: block;
+            };
+        }
+    }
+    li {
+        padding: 0.5rem;
+        text-decoration: double underline;
+    }
+}

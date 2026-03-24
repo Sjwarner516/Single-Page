@@ -1,0 +1,41 @@
+body {
+    display: grid;
+    grid-template-columns: 250px auto;
+}
+
+#headerWrapper {
+    display: none;
+}
+
+#navWrapper {
+   grid-column: 1;
+   grid-row:1 / span 3;
+   position: relative;
+}
+
+#mainWrapper {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#footerWrapper {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    position: fixed;
+    width: 250px;
+    background-color: $accentColor;
+    border-right: 1px solid black;
+    li {
+        flex: none;
+        padding: 1rem;
+        text-decoration: double underline;
+        
+    }
+}
